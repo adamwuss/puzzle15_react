@@ -1,0 +1,22 @@
+.board {
+    width: 440px;
+    height: 440px;
+}
+.tile {
+    width: 100px;
+    height: 100px;
+    background-color: #f4db87;
+    border-radius: 5px;
+    font-size: 25px;
+    margin: 5px;
+    user-select: none;
+}
+.empty {
+    opacity: 0;
+}
+.cursorPointer {
+    cursor: pointer;
+}
+.greyBackground {
+    background-color: #adadad;
+}
